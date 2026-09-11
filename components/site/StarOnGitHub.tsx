@@ -8,8 +8,6 @@ export function StarOnGitHub({
   count?: number | null;
   variant?: "button" | "compact" | "text";
 }) {
-  if (!repositoryUrl) return null;
-
   const label =
     count == null ? "Star on GitHub" : `Star on GitHub · ${count}`;
 

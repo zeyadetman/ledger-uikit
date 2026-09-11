@@ -1,16 +1,8 @@
+export const repositoryOwner = "zeyadetman";
 export const repositoryName = "ledger-uikit";
-
-/** GitHub `owner/name`. Set `NEXT_PUBLIC_GITHUB_REPO` at build time for star counts and links. */
-const githubRepo =
-  process.env.NEXT_PUBLIC_GITHUB_REPO ?? process.env.GITHUB_REPOSITORY ?? "";
-
-export const repositoryUrl = githubRepo
-  ? `https://github.com/${githubRepo}`
-  : "";
+export const repositoryUrl = `https://github.com/${repositoryOwner}/${repositoryName}`;
 
 export async function getRepositoryStars(): Promise<number | null> {
-  if (!githubRepo) return null;
-
   try {
     const headers: Record<string, string> = {
       Accept: "application/vnd.github+json",
@@ -22,7 +14,7 @@ export async function getRepositoryStars(): Promise<number | null> {
     }
 
     const response = await fetch(
-      `https://api.github.com/repos/${githubRepo}`,
+      `https://api.github.com/repos/${repositoryOwner}/${repositoryName}`,
       {
         headers,
         cache: "force-cache",

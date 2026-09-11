@@ -153,34 +153,32 @@ export function KitShell({
         </main>
         <footer className="flex flex-wrap items-center justify-between gap-4 border-t border-ledger-rule px-5 py-5 text-xs text-ledger-muted">
           <span>LEDGER Blocks UI Kit · Apache 2.0</span>
-          {repositoryUrl ? (
-            <div className="flex gap-4">
-              <a
-                className="hover:text-ledger-ink"
-                href={repositoryUrl}
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub ↗
-              </a>
-              <a
-                className="hover:text-ledger-ink"
-                href={`${repositoryUrl}/issues`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Feedback ↗
-              </a>
-              <a
-                className="hover:text-ledger-ink"
-                href={`${repositoryUrl}/blob/HEAD/LICENSE`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Apache 2.0 ↗
-              </a>
-            </div>
-          ) : null}
+          <div className="flex gap-4">
+            <a
+              className="hover:text-ledger-ink"
+              href={repositoryUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub ↗
+            </a>
+            <a
+              className="hover:text-ledger-ink"
+              href={`${repositoryUrl}/issues`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Feedback ↗
+            </a>
+            <a
+              className="hover:text-ledger-ink"
+              href={`${repositoryUrl}/blob/HEAD/LICENSE`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Apache 2.0 ↗
+            </a>
+          </div>
         </footer>
       </div>
     </div>

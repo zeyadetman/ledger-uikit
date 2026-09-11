@@ -1,5 +1,7 @@
 # LEDGER Blocks UI Kit
 
+[![Star on GitHub](https://img.shields.io/github/stars/zeyadetman/ledger-uikit?style=social)](https://github.com/zeyadetman/ledger-uikit)
+
 <img src="public/logo.png" alt="LEDGER Blocks UI Kit" width="72" height="72" />
 
 **Your next app. A head start.**
@@ -16,9 +18,10 @@
 
 ## Run locally
 
-Clone this repository. Use Node.js 22 and the pnpm version specified in `package.json`.
+Use Node.js 22 and the pnpm version specified in `package.json`.
 
 ```sh
+git clone https://github.com/zeyadetman/ledger-uikit.git
 cd ledger-uikit
 corepack enable
 pnpm install
@@ -65,7 +68,7 @@ The kit is a static Next.js export (`output: "export"`). Use a **Pages** project
 
 1. Go to [Workers & Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages).
 2. **Create** → **Pages** → **Import an existing Git repository** (not Workers / “create a Worker”).
-3. Select this repository.
+3. Select `zeyadetman/ledger-uikit`.
 4. Set the build:
 
    | Field | Value |
@@ -78,8 +81,7 @@ The kit is a static Next.js export (`output: "export"`). Use a **Pages** project
 
 5. Environment variables:
    - `NODE_VERSION` = `22`
-   - Optional: `NEXT_PUBLIC_GITHUB_REPO` = GitHub `owner/name` so the homepage can link to the repository and read the star count
-   - Optional: `GITHUB_TOKEN` so the star count request is authenticated at build time
+   - Optional: `GITHUB_TOKEN` so the homepage can read the GitHub star count at build time
 6. **Save and Deploy**.
 
 If the log says `No build command specified` and `Output directory "out" not found`, the dashboard build command is empty. Set it to `pnpm build` and retry. Do not deploy this kit as a Worker if you need a `*.pages.dev` hostname.
@@ -95,9 +97,9 @@ npx wrangler pages deploy
 
 ## Contribute
 
-Found a rough edge or have a block idea? Open an issue. Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the block conventions and checks.
+Found a rough edge or have a block idea? [Open an issue](https://github.com/zeyadetman/ledger-uikit/issues). Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the block conventions and checks.
 
-If LEDGER helps you build something, a star helps other developers find the project.
+If LEDGER helps you build something, [star the repo on GitHub](https://github.com/zeyadetman/ledger-uikit).
 
 ## License
 
