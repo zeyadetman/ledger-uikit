@@ -1,0 +1,9 @@
+{
+  "slug": "legal-01",
+  "title": "Legal page",
+  "category": "content",
+  "use_when": "Use for terms, privacy, or DPA pages with numbered clauses.",
+  "avoid_when": "Avoid as a blog post.",
+  "deps": [],
+  "states": ["default"]
+}

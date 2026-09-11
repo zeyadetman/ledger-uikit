@@ -1,0 +1,9 @@
+{
+  "slug": "inbox-01",
+  "title": "Notification inbox",
+  "category": "communication",
+  "use_when": "Use as the two-pane desk inbox for operational threads.",
+  "avoid_when": "Avoid as a marketing announcement list — use notifications-01 for a simple feed.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

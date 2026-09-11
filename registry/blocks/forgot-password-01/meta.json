@@ -1,0 +1,9 @@
+{
+  "slug": "forgot-password-01",
+  "title": "Forgot password",
+  "category": "auth",
+  "use_when": "Use when an operator needs a passphrase reset sent to email.",
+  "avoid_when": "Avoid as the profile passphrase change — use profile-01.",
+  "deps": [],
+  "states": ["default", "error"]
+}

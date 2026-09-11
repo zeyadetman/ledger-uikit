@@ -1,0 +1,9 @@
+{
+  "slug": "version-history-01",
+  "title": "Version history",
+  "category": "content",
+  "use_when": "Use a revision viewer with comparison and confirmed restoration of a previous version.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

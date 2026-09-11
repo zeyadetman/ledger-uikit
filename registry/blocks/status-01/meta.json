@@ -1,0 +1,9 @@
+{
+  "slug": "status-01",
+  "title": "Status pages",
+  "category": "system",
+  "use_when": "Use for 404 (default), 500 (error), and maintenance (empty) full-page states.",
+  "avoid_when": "Avoid inside a dashboard canvas — those get empty-state-01.",
+  "deps": [],
+  "states": ["default", "empty", "error"]
+}

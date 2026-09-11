@@ -1,0 +1,11 @@
+{
+  "slug": "glossary-01",
+  "title": "Product glossary",
+  "category": "content",
+  "use_when": "Use a searchable glossary of domain terms for product documentation",
+  "avoid_when": "Avoid for full API reference pages; use docs-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

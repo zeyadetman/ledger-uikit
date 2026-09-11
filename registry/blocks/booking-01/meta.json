@@ -1,0 +1,9 @@
+{
+  "slug": "booking-01",
+  "title": "Booking scheduler",
+  "category": "app",
+  "use_when": "Use an appointment flow with time zones, available slots, and confirmation.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

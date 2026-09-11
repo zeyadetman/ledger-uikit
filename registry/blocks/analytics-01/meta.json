@@ -1,0 +1,9 @@
+{
+  "slug": "analytics-01",
+  "title": "Report dashboard",
+  "category": "data",
+  "use_when": "Use a report with selectable periods, comparison metrics, and accessible charts.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "support-ticket-01",
+  "title": "Support ticket",
+  "category": "communication",
+  "use_when": "Use a support request form with topic, priority, and a local submission receipt",
+  "avoid_when": "Avoid for sales inquiries; use contact-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

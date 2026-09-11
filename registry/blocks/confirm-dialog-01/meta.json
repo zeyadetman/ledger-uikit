@@ -1,0 +1,9 @@
+{
+  "slug": "confirm-dialog-01",
+  "title": "Confirm dialog",
+  "category": "system",
+  "use_when": "Use before a destructive write: archive, revoke, cancel.",
+  "avoid_when": "Avoid for ordinary saves — a toast is enough.",
+  "deps": [],
+  "states": ["default"]
+}

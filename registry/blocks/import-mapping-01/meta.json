@@ -1,0 +1,11 @@
+{
+  "slug": "import-mapping-01",
+  "title": "Import column mapping",
+  "category": "onboarding",
+  "use_when": "Use a CSV column-mapping step before importing historical usage",
+  "avoid_when": "Avoid for recurring exports; use export-bar-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

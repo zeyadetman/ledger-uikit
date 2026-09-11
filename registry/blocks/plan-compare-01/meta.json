@@ -1,0 +1,9 @@
+{
+  "slug": "plan-compare-01",
+  "title": "Plan compare",
+  "category": "billing",
+  "use_when": "Use inside billing when an operator switches Desk / Floor / Exchange.",
+  "avoid_when": "Avoid as public pricing — use pricing-01 + comparison-01.",
+  "deps": [],
+  "states": ["default"]
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "connections-01",
+  "title": "Connected sources",
+  "category": "app",
+  "use_when": "Use a source connection list with local pause and resume controls",
+  "avoid_when": "Avoid for browsing supported vendors; use integrations-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

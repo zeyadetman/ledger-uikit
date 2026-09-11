@@ -1,0 +1,14 @@
+{
+  "slug": "service-health-01",
+  "title": "Service health",
+  "category": "system",
+  "use_when": "Use a service status summary with availability and incident details",
+  "avoid_when": "Avoid for missing-page errors; use status-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

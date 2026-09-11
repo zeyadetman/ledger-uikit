@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-ledger-paper: var(--ledger-paper);
+  --color-ledger-ink: var(--ledger-ink);
+  --color-ledger-muted: var(--ledger-muted);
+  --color-ledger-rule: var(--ledger-rule);
+  --color-ledger-signal: var(--ledger-signal);
+
+  --font-sans: var(--design-font, var(--font-geist-sans)), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --radius-none: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-3xl: 0px;
+  --radius-full: 0px;
+
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-xl: none;
+  --shadow-2xl: none;
+  --shadow-inner: none;
+}
+
+:root,
+.light {
+  --ledger-paper: #f4f1ea;
+  --ledger-ink: #171717;
+  --ledger-muted: #6b645b;
+  --ledger-rule: #d9d1c3;
+  --ledger-signal: #c43e1c;
+  color-scheme: light;
+}
+
+.dark {
+  --ledger-paper: #12110f;
+  --ledger-ink: #ede8de;
+  --ledger-muted: #9e9689;
+  --ledger-rule: #2a2722;
+  --ledger-signal: #c43e1c;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--ledger-paper);
+  color: var(--ledger-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  border-radius: 0;
+  box-shadow: none;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 120ms;
+}
+
+::selection {
+  background-color: var(--ledger-signal);
+  color: var(--ledger-paper);
+}
+
+.bg-grid-pattern {
+  background-image: radial-gradient(var(--ledger-ink) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.ledger-link {
+  position: relative;
+  display: inline-block;
+  color: var(--ledger-ink);
+  text-decoration: none;
+}
+
+.ledger-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--ledger-signal);
+  transition: width 120ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ledger-link:hover::after,
+.ledger-link:focus-visible::after {
+  width: 100%;
+}
+
+/* Alternative systems opt into their own shapes and editorial typography. */
+:root[data-design]:not([data-design="ledger"]) :is(button, input, select, textarea, [class~="border"]) {
+  border-radius: var(--design-radius);
+}
+:root[data-design]:not([data-design="ledger"]) :is(h1, h2, h3, button, label) {
+  text-transform: var(--design-case);
+  letter-spacing: normal;
+}
+:focus-visible { outline: 2px solid var(--ledger-signal); outline-offset: 3px; }

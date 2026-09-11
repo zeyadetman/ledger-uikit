@@ -1,0 +1,54 @@
+# LEDGER Blocks UI Kit
+
+LEDGER is a copy-paste block kit for SaaS marketing and app shells.
+Stack: Next.js App Router, TypeScript, Tailwind CSS, restyled shadcn-style primitives (Button, Input, Dialog, Tabs, ScrollArea, Tooltip), lucide-react.
+
+## Visual System
+- Fonts: Geist Sans, Geist Mono via next/font
+- Radius: 0 (no rounded borders)
+- Shadow: none
+- Border: 1px solid ink
+- Colors: paper (#F4F1EA / #12110F), ink (#171717 / #EDE8DE), muted (#6B645B / #9E9689), rule (#D9D1C3 / #2A2722), signal (#C43E1C)
+- Numbers: tabular-nums, mono
+- Motion: 120ms ease-out on colors/borders only. No bounce/glow.
+- Motif: 2px signal underline growing from left on hover for links (`.ledger-link`)
+- Dark mode: class `.dark` on `<html>` (preview iframe `?theme=`)
+
+## Routes
+- `/` — get started (kit shell)
+- `/about` — visual lock
+- `/blocks` — browse by type or view all blocks with `?view=all`. `/components` redirects here.
+- `/getting-started` — copyable setup guide, dependencies, font setup, and selected theme CSS.
+- `/design-system` — choose the original LEDGER design or 10 alternative presets. Appearance persists across the site and previews.
+- `/llms` — this file, rendered
+- `/type/{category}` — blocks in that type
+- `/blocks/{slug}` — block viewer
+- `/preview/{slug}` and `/preview/{slug}/{state}?theme=` — isolated preview
+- `/demo/saas-home` — composed marketing page (banner, navbar, hero, logos, features, process, testimonials, pricing, FAQ, CTA, footer)
+- `/demo/saas-app` — composed app page (shell, stats, chart, activity, data table)
+
+## Block Slugs
+Marketing: navbar-01, banner-01, hero-01, logo-cloud-01, features-01, pricing-01, comparison-01, testimonials-01, faq-01, cta-01, contact-01, newsletter-01, footer-01, case-study-01, process-01, integrations-01, security-01
+App: shell-01, stats-01, profile-01, files-01, search-results-01, settings-01, api-keys-01, team-invite-01, empty-state-01, workspace-switcher-01, connections-01, sessions-01, permissions-01, webhooks-01, kanban-01, calendar-01, booking-01, upload-01, customers-01, record-detail-01, automation-01, domain-01
+Auth: login-01, signup-01, forgot-password-01, verify-email-01, two-factor-01, sso-01, recovery-codes-01
+System: command-palette-01, toast-01, confirm-dialog-01, status-01, cookie-banner-01, service-health-01, keyboard-shortcuts-01, job-progress-01
+Onboarding: welcome-01, onboard-01, empty-tour-01, invite-gate-01, setup-wizard-01, workspace-create-01, import-mapping-01, launch-checklist-01
+Billing: billing-01, plan-compare-01, usage-meter-01, failed-payment-01, invoices-01, seats-01, cancel-reason-01, invoice-detail-01, billing-address-01, credit-balance-01, checkout-01
+Data: data-table-01, filters-01, chart-01, export-bar-01, activity-01, retention-01, funnel-01, event-inspector-01, saved-views-01, analytics-01
+Communication: notifications-01, inbox-01, comments-01, share-01, support-ticket-01, notification-preferences-01, ai-chat-01, feedback-01
+Content: blog-list-01, blog-post-01, docs-01, changelog-01, legal-01, roadmap-01, glossary-01, release-note-01, version-history-01
+
+## Files
+- `registry/blocks/<slug>/block.tsx` — copy-paste component
+- `registry/blocks/<slug>/meta.json` — slug, title, category, use_when, avoid_when, deps, states
+- `lib/blocks.ts` — registry index
+- `components/ledger/` — restyled primitives
+- `components/viewer/` — ViewerShell, DeviceFrame, CodePanel, CopyButton, StateToggle, ThemeToggle
+
+## Rules for AI Assistants
+- Prefer composing with existing LEDGER blocks instead of inventing new cards.
+- NEVER introduce rounded indigo components.
+- Avoid blur, glow, 3D, mesh gradients.
+- Mobile first (375px), zero rounded-xl cards, hairline grids beat shadows.
+- Write sharp product copy instead of dummy lorem.
+- If a screen looks like default v0 / shadcn indigo SaaS, redesign it.

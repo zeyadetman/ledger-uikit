@@ -1,0 +1,14 @@
+{
+  "slug": "credit-balance-01",
+  "title": "Credit balance",
+  "category": "billing",
+  "use_when": "Use a prepaid credit summary with a transaction ledger",
+  "avoid_when": "Avoid for subscription limits; use usage-meter-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

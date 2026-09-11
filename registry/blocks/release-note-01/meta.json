@@ -1,0 +1,11 @@
+{
+  "slug": "release-note-01",
+  "title": "Release note",
+  "category": "content",
+  "use_when": "Use a detailed product release with highlights, migration notes, and an upgrade checklist",
+  "avoid_when": "Avoid for a chronological index; use changelog-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

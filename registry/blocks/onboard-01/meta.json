@@ -1,0 +1,9 @@
+{
+  "slug": "onboard-01",
+  "title": "Onboarding",
+  "category": "onboarding",
+  "use_when": "Use after first login to walk an operator through meter setup.",
+  "avoid_when": "Avoid as a marketing feature list.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "comparison-01",
+  "title": "Comparison",
+  "category": "marketing",
+  "use_when": "Use under pricing to compare plan capabilities in a dense matrix.",
+  "avoid_when": "Avoid as the only pricing block — pair with pricing-01.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "hero-01",
+  "title": "Hero",
+  "category": "marketing",
+  "use_when": "Use at the top of the marketing home page, directly under the navbar.",
+  "avoid_when": "Avoid inside the app dashboard or as a section mid-page.",
+  "deps": [],
+  "states": ["default"]
+}

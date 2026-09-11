@@ -1,0 +1,11 @@
+{
+  "slug": "notification-preferences-01",
+  "title": "Notification preferences",
+  "category": "communication",
+  "use_when": "Use per-topic email and in-app notification controls",
+  "avoid_when": "Avoid for reading received messages; use inbox-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

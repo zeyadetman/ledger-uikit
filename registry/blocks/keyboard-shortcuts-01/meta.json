@@ -1,0 +1,11 @@
+{
+  "slug": "keyboard-shortcuts-01",
+  "title": "Keyboard shortcuts",
+  "category": "system",
+  "use_when": "Use a searchable reference of keyboard commands used in the workspace",
+  "avoid_when": "Avoid as a command launcher; use command-palette-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

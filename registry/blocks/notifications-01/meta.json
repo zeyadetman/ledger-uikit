@@ -1,0 +1,9 @@
+{
+  "slug": "notifications-01",
+  "title": "Notifications",
+  "category": "communication",
+  "use_when": "Use for desk alerts: drift, failed meters, invoice events.",
+  "avoid_when": "Avoid as marketing announcements.",
+  "deps": ["lucide-react"],
+  "states": ["default", "loading", "empty", "error"]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "upload-01",
+  "title": "Upload queue",
+  "category": "app",
+  "use_when": "Use a file queue with validation, simulated progress, cancellation, and retry.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

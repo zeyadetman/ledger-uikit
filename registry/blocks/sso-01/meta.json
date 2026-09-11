@@ -1,0 +1,11 @@
+{
+  "slug": "sso-01",
+  "title": "SSO sign in",
+  "category": "auth",
+  "use_when": "Use an organization email entry point for enterprise single sign-on",
+  "avoid_when": "Avoid for personal email and password login; use login-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

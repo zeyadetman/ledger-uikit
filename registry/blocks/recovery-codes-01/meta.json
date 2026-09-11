@@ -1,0 +1,11 @@
+{
+  "slug": "recovery-codes-01",
+  "title": "Recovery codes",
+  "category": "auth",
+  "use_when": "Use a printable backup-code sheet during two-factor enrollment",
+  "avoid_when": "Avoid as a live credential store; generate and consume real codes on your server.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

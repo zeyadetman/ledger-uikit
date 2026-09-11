@@ -1,0 +1,9 @@
+{
+  "slug": "chart-01",
+  "title": "Chart",
+  "category": "data",
+  "use_when": "Use for a dense bar series of events. Empty state keeps the axis.",
+  "avoid_when": "Avoid gradient area charts, glow, or animation.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

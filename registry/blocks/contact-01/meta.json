@@ -1,0 +1,9 @@
+{
+  "slug": "contact-01",
+  "title": "Contact",
+  "category": "marketing",
+  "use_when": "Use for a sales/desk contact form with a postal address.",
+  "avoid_when": "Avoid as an in-app support ticket form.",
+  "deps": [],
+  "states": ["default"]
+}

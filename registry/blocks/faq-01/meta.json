@@ -1,0 +1,9 @@
+{
+  "slug": "faq-01",
+  "title": "FAQ",
+  "category": "marketing",
+  "use_when": "Use on marketing or pricing pages for dense operator questions.",
+  "avoid_when": "Avoid for in-app help — write a docs surface instead.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

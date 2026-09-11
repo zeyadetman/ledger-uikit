@@ -1,0 +1,9 @@
+{
+  "slug": "blog-post-01",
+  "title": "Blog post",
+  "category": "content",
+  "use_when": "Use for a single field note / essay on the marketing site.",
+  "avoid_when": "Avoid as an in-app changelog row — use changelog-01 for lists.",
+  "deps": [],
+  "states": ["default"]
+}

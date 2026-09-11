@@ -1,0 +1,9 @@
+{
+  "slug": "invite-gate-01",
+  "title": "Invite gate",
+  "category": "onboarding",
+  "use_when": "Use as a blocking step before production ingest, to force a second operator.",
+  "avoid_when": "Avoid as the standing team page — use team-invite-01.",
+  "deps": [],
+  "states": ["default"]
+}

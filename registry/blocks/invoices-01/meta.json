@@ -1,0 +1,9 @@
+{
+  "slug": "invoices-01",
+  "title": "Invoices list",
+  "category": "billing",
+  "use_when": "Use as the full invoice table, including failed periods.",
+  "avoid_when": "Avoid as public pricing history.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

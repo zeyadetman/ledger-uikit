@@ -1,0 +1,11 @@
+{
+  "slug": "billing-address-01",
+  "title": "Billing address",
+  "category": "billing",
+  "use_when": "Use a billing identity form for invoice delivery and tax details",
+  "avoid_when": "Avoid for payment-card collection; use a payment-provider form.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

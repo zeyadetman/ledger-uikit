@@ -1,0 +1,11 @@
+{
+  "slug": "workspace-switcher-01",
+  "title": "Workspace switcher",
+  "category": "app",
+  "use_when": "Use a compact workspace picker with filtering and an explicit current selection",
+  "avoid_when": "Avoid as the main navigation; pair with shell-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "two-factor-01",
+  "title": "Two-factor challenge",
+  "category": "auth",
+  "use_when": "Use a six-digit authenticator challenge after password verification",
+  "avoid_when": "Avoid as a standalone sign-in screen; use login-01 first.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

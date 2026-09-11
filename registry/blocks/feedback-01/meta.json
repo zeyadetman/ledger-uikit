@@ -1,0 +1,9 @@
+{
+  "slug": "feedback-01",
+  "title": "Feedback collector",
+  "category": "communication",
+  "use_when": "Use a feedback form with ratings, categories, validation, and submission confirmation.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "features-01",
+  "title": "Features",
+  "category": "marketing",
+  "use_when": "Use on the marketing page to list product capabilities in a dense grid.",
+  "avoid_when": "Avoid for pricing comparison or dashboard widgets.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

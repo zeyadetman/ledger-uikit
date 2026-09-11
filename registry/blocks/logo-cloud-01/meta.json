@@ -1,0 +1,9 @@
+{
+  "slug": "logo-cloud-01",
+  "title": "Logo cloud",
+  "category": "marketing",
+  "use_when": "Use under the hero to show production logos / social proof.",
+  "avoid_when": "Avoid as a footer substitute or inside the app shell.",
+  "deps": [],
+  "states": ["default"]
+}

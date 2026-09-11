@@ -1,0 +1,9 @@
+{
+  "slug": "files-01",
+  "title": "Files",
+  "category": "app",
+  "use_when": "Use to list exported tapes, CSVs, and invoice PDFs.",
+  "avoid_when": "Avoid as a generic cloud drive UI.",
+  "deps": ["lucide-react"],
+  "states": ["default", "loading", "empty", "error"]
+}

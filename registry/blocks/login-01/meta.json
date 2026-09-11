@@ -1,0 +1,9 @@
+{
+  "slug": "login-01",
+  "title": "Login",
+  "category": "auth",
+  "use_when": "Use as the sign-in screen for email + password operators.",
+  "avoid_when": "Avoid as a marketing CTA section.",
+  "deps": [],
+  "states": ["default", "error"]
+}

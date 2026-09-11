@@ -1,0 +1,11 @@
+{
+  "slug": "invoice-detail-01",
+  "title": "Invoice detail",
+  "category": "billing",
+  "use_when": "Use an itemized invoice with totals, billing parties, and payment terms",
+  "avoid_when": "Avoid for listing multiple invoices; use invoices-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

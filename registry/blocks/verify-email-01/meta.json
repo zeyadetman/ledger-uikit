@@ -1,0 +1,9 @@
+{
+  "slug": "verify-email-01",
+  "title": "Verify email",
+  "category": "auth",
+  "use_when": "Use after signup while the operator waits on a confirmation link.",
+  "avoid_when": "Avoid as a passphrase reset screen — use forgot-password-01.",
+  "deps": [],
+  "states": ["default", "error"]
+}

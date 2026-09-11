@@ -1,0 +1,9 @@
+{
+  "slug": "newsletter-01",
+  "title": "Newsletter",
+  "category": "marketing",
+  "use_when": "Use in the marketing page to collect tape subscribers.",
+  "avoid_when": "Avoid as account notification settings — use settings-01.",
+  "deps": [],
+  "states": ["default"]
+}

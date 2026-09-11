@@ -1,0 +1,11 @@
+{
+  "slug": "workspace-create-01",
+  "title": "Create workspace",
+  "category": "onboarding",
+  "use_when": "Use a first-run form for the workspace name, region, and reporting timezone",
+  "avoid_when": "Avoid for editing existing workspace settings; use settings-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

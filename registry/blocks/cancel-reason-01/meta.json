@@ -1,0 +1,9 @@
+{
+  "slug": "cancel-reason-01",
+  "title": "Cancel reason",
+  "category": "billing",
+  "use_when": "Use as the last step before tearing down a paid plan.",
+  "avoid_when": "Avoid as a generic survey.",
+  "deps": [],
+  "states": ["default"]
+}

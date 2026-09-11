@@ -1,0 +1,9 @@
+{
+  "slug": "banner-01",
+  "title": "Banner",
+  "category": "marketing",
+  "use_when": "Use at the very top of marketing pages for a single product notice.",
+  "avoid_when": "Avoid for in-app alerts — use notifications-01.",
+  "deps": [],
+  "states": ["default"]
+}

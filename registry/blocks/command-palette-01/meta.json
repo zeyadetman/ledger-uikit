@@ -1,0 +1,9 @@
+{
+  "slug": "command-palette-01",
+  "title": "Command palette",
+  "category": "system",
+  "use_when": "Use as the global jump menu (⌘K) inside the authenticated app.",
+  "avoid_when": "Avoid as marketing site search — use a public search page.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "checkout-01",
+  "title": "Checkout summary",
+  "category": "billing",
+  "use_when": "Use a plan checkout with billing frequency, coupon validation, and an order summary.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

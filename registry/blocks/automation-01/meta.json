@@ -1,0 +1,9 @@
+{
+  "slug": "automation-01",
+  "title": "Automation rules",
+  "category": "app",
+  "use_when": "Use a workflow editor with triggers, conditions, actions, and a local test run.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

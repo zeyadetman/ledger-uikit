@@ -1,0 +1,9 @@
+{
+  "slug": "navbar-01",
+  "title": "Navbar",
+  "category": "marketing",
+  "use_when": "Use at the top of marketing pages for product navigation and primary CTA.",
+  "avoid_when": "Avoid inside authenticated app chrome — use shell-01 instead.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

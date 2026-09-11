@@ -1,0 +1,9 @@
+{
+  "slug": "domain-01",
+  "title": "Custom domain setup",
+  "category": "app",
+  "use_when": "Use a custom-domain workflow with DNS records and simulated verification.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

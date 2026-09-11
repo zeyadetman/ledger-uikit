@@ -1,0 +1,9 @@
+{
+  "slug": "failed-payment-01",
+  "title": "Failed payment",
+  "category": "billing",
+  "use_when": "Use when a subscription charge is declined and the operator must act.",
+  "avoid_when": "Avoid as a generic error toast — this has to block the desk.",
+  "deps": [],
+  "states": ["default"]
+}

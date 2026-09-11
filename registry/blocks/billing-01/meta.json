@@ -1,0 +1,9 @@
+{
+  "slug": "billing-01",
+  "title": "Billing",
+  "category": "billing",
+  "use_when": "Use on the billing screen for current plan and invoice history.",
+  "avoid_when": "Avoid as public pricing — use pricing-01.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

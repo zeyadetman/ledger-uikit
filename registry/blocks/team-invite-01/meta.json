@@ -1,0 +1,9 @@
+{
+  "slug": "team-invite-01",
+  "title": "Team invite",
+  "category": "app",
+  "use_when": "Use to invite operators and list workspace members with roles.",
+  "avoid_when": "Avoid as a marketing waitlist form.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

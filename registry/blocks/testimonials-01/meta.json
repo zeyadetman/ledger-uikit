@@ -1,0 +1,9 @@
+{
+  "slug": "testimonials-01",
+  "title": "Testimonials",
+  "category": "marketing",
+  "use_when": "Use under features or pricing to quote operators in production.",
+  "avoid_when": "Avoid as a dashboard widget or with photos/avatars.",
+  "deps": [],
+  "states": ["default"]
+}

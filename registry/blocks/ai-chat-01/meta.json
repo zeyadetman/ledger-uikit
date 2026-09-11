@@ -1,0 +1,9 @@
+{
+  "slug": "ai-chat-01",
+  "title": "AI conversation",
+  "category": "communication",
+  "use_when": "Use an assistant conversation with suggested prompts, generation, and retry.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

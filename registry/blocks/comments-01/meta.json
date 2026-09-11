@@ -1,0 +1,9 @@
+{
+  "slug": "comments-01",
+  "title": "Comments",
+  "category": "communication",
+  "use_when": "Use on a record (invoice line, meter, event) for an operator thread.",
+  "avoid_when": "Avoid as a marketing testimonial wall.",
+  "deps": [],
+  "states": ["default"]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "cookie-banner-01",
+  "title": "Cookie banner",
+  "category": "system",
+  "use_when": "Use on marketing pages that set a session cookie. Keep it necessary-only.",
+  "avoid_when": "Avoid dark-pattern walls of vendors. LEDGER does not ship ad consent.",
+  "deps": [],
+  "states": ["default"]
+}

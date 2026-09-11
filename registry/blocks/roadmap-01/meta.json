@@ -1,0 +1,11 @@
+{
+  "slug": "roadmap-01",
+  "title": "Product roadmap",
+  "category": "content",
+  "use_when": "Use a public roadmap grouped by delivery stage",
+  "avoid_when": "Avoid as a promise of release dates; use changelog-01 for shipped details.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

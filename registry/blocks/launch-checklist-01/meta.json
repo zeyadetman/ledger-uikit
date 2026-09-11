@@ -1,0 +1,11 @@
+{
+  "slug": "launch-checklist-01",
+  "title": "Launch checklist",
+  "category": "onboarding",
+  "use_when": "Use a production readiness checklist with an explicit completion gate",
+  "avoid_when": "Avoid for routine work tracking after launch.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

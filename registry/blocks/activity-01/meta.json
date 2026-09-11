@@ -1,0 +1,9 @@
+{
+  "slug": "activity-01",
+  "title": "Activity",
+  "category": "data",
+  "use_when": "Use for an audit tape of operator writes inside the workspace.",
+  "avoid_when": "Avoid as a public changelog — use changelog-01.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

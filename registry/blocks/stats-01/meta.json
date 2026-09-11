@@ -1,0 +1,9 @@
+{
+  "slug": "stats-01",
+  "title": "Stats",
+  "category": "app",
+  "use_when": "Use at the top of a dashboard to show four operational metrics.",
+  "avoid_when": "Avoid as a marketing hero substitute.",
+  "deps": ["lucide-react"],
+  "states": ["default", "loading", "empty", "error"]
+}

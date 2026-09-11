@@ -1,0 +1,11 @@
+{
+  "slug": "permissions-01",
+  "title": "Role permissions",
+  "category": "app",
+  "use_when": "Use an editable permission matrix for workspace roles",
+  "avoid_when": "Avoid for assigning members to roles; use team-invite-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

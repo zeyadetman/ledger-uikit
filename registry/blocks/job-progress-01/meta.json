@@ -1,0 +1,11 @@
+{
+  "slug": "job-progress-01",
+  "title": "Background job",
+  "category": "system",
+  "use_when": "Use a long-running job summary with progress, cancellation, and restart controls",
+  "avoid_when": "Avoid for brief save confirmations; use toast-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "settings-01",
+  "title": "Settings",
+  "category": "app",
+  "use_when": "Use for workspace profile, timezone, and destructive account actions.",
+  "avoid_when": "Avoid for billing plan changes — use billing-01.",
+  "deps": [],
+  "states": ["default", "loading"]
+}

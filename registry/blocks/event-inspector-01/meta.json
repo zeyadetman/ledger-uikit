@@ -1,0 +1,14 @@
+{
+  "slug": "event-inspector-01",
+  "title": "Event inspector",
+  "category": "data",
+  "use_when": "Use an individual event record with structured metadata and a raw JSON view",
+  "avoid_when": "Avoid for browsing many records; use data-table-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

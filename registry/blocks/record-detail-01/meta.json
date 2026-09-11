@@ -1,0 +1,9 @@
+{
+  "slug": "record-detail-01",
+  "title": "Record detail panel",
+  "category": "app",
+  "use_when": "Use an editable record with local saving, activity, and change cancellation.",
+  "avoid_when": "Avoid treating the local demo as a connected production service.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

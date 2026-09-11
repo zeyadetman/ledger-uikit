@@ -1,0 +1,11 @@
+{
+  "slug": "process-01",
+  "title": "How it works",
+  "category": "marketing",
+  "use_when": "Use a numbered walkthrough of the path from raw events to a reliable close",
+  "avoid_when": "Avoid for first-run tasks; use onboard-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

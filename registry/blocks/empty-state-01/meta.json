@@ -1,0 +1,9 @@
+{
+  "slug": "empty-state-01",
+  "title": "Empty state",
+  "category": "app",
+  "use_when": "Use when a ledger view has no rows and you need a first action.",
+  "avoid_when": "Avoid for API errors — use the error state on the data block.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

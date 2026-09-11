@@ -1,0 +1,9 @@
+{
+  "slug": "export-bar-01",
+  "title": "Export bar",
+  "category": "data",
+  "use_when": "Use above or below a table when operators dump the current view.",
+  "avoid_when": "Avoid as a generic download widget on marketing pages.",
+  "deps": [],
+  "states": ["default"]
+}

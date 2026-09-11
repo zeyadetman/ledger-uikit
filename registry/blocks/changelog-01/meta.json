@@ -1,0 +1,9 @@
+{
+  "slug": "changelog-01",
+  "title": "Changelog",
+  "category": "content",
+  "use_when": "Use on a public changelog page for dated product notes.",
+  "avoid_when": "Avoid as an in-app activity feed — use activity-01.",
+  "deps": [],
+  "states": ["default"]
+}

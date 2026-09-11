@@ -1,0 +1,9 @@
+{
+  "slug": "pricing-01",
+  "title": "Pricing",
+  "category": "marketing",
+  "use_when": "Use on the marketing pricing section for three-tier SaaS plans.",
+  "avoid_when": "Avoid for in-app plan changes — use billing-01.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

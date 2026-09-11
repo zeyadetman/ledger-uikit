@@ -1,0 +1,9 @@
+{
+  "slug": "api-keys-01",
+  "title": "API keys",
+  "category": "app",
+  "use_when": "Use on a credentials screen to list and mint ingest keys.",
+  "avoid_when": "Avoid as a generic secrets manager.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

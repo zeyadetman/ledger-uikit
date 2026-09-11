@@ -1,0 +1,9 @@
+{
+  "slug": "usage-meter-01",
+  "title": "Usage meter",
+  "category": "billing",
+  "use_when": "Use on billing to show period consumption against plan caps.",
+  "avoid_when": "Avoid as a marketing social-proof counter.",
+  "deps": [],
+  "states": ["default", "loading", "empty", "error"]
+}

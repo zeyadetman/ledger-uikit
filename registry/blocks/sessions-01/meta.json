@@ -1,0 +1,14 @@
+{
+  "slug": "sessions-01",
+  "title": "Active sessions",
+  "category": "app",
+  "use_when": "Use a review of signed-in devices with individual session revocation",
+  "avoid_when": "Avoid for changing a password; use profile-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

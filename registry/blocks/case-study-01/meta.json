@@ -1,0 +1,11 @@
+{
+  "slug": "case-study-01",
+  "title": "Case study",
+  "category": "marketing",
+  "use_when": "Use a customer story connecting an operational problem to measurable results",
+  "avoid_when": "Avoid for unattributed quotes; use testimonials-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

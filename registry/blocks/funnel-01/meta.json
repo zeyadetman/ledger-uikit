@@ -1,0 +1,14 @@
+{
+  "slug": "funnel-01",
+  "title": "Conversion funnel",
+  "category": "data",
+  "use_when": "Use a stage-by-stage conversion report with counts and drop-off rates",
+  "avoid_when": "Avoid for time-series trends; use chart-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

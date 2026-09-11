@@ -1,0 +1,11 @@
+{
+  "slug": "webhooks-01",
+  "title": "Webhook endpoints",
+  "category": "app",
+  "use_when": "Use an endpoint inspector with an editable URL and a simulated delivery test",
+  "avoid_when": "Avoid for API credential management; use api-keys-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

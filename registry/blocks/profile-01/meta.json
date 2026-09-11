@@ -1,0 +1,9 @@
+{
+  "slug": "profile-01",
+  "title": "Profile",
+  "category": "app",
+  "use_when": "Use for the signed-in operator's name, desk role, and passphrase.",
+  "avoid_when": "Avoid for workspace settings — use settings-01.",
+  "deps": [],
+  "states": ["default", "loading"]
+}

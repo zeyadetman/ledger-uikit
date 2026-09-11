@@ -1,0 +1,9 @@
+{
+  "slug": "cta-01",
+  "title": "Call to action",
+  "category": "marketing",
+  "use_when": "Use before the footer as a closing band to open a ledger.",
+  "avoid_when": "Avoid inside the app shell.",
+  "deps": [],
+  "states": ["default"]
+}

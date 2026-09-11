@@ -1,0 +1,9 @@
+{
+  "slug": "search-results-01",
+  "title": "Search results",
+  "category": "app",
+  "use_when": "Use for workspace search across meters, events, and invoices.",
+  "avoid_when": "Avoid as a marketing site search.",
+  "deps": ["lucide-react"],
+  "states": ["default", "loading", "empty", "error"]
+}

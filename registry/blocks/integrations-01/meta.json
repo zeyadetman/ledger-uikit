@@ -1,0 +1,11 @@
+{
+  "slug": "integrations-01",
+  "title": "Integration directory",
+  "category": "marketing",
+  "use_when": "Use a searchable directory of the systems that connect to your product",
+  "avoid_when": "Avoid for managing live connections; use connections-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

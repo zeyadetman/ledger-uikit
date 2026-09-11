@@ -1,0 +1,11 @@
+{
+  "slug": "saved-views-01",
+  "title": "Saved views",
+  "category": "data",
+  "use_when": "Use a saved query list with selection and creation of named views",
+  "avoid_when": "Avoid as a global search surface; use search-results-01.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

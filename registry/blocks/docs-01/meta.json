@@ -1,0 +1,9 @@
+{
+  "slug": "docs-01",
+  "title": "Docs",
+  "category": "content",
+  "use_when": "Use for API/spec pages with a sidebar and on-this-page TOC.",
+  "avoid_when": "Avoid as a blog layout — use blog-post-01.",
+  "deps": [],
+  "states": ["default"]
+}

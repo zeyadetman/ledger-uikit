@@ -1,0 +1,9 @@
+{
+  "slug": "empty-tour-01",
+  "title": "Empty tour",
+  "category": "onboarding",
+  "use_when": "Use on an empty canvas during first-run, with a short product lesson.",
+  "avoid_when": "Avoid after the operator has created the object — use empty-state-01 for later blanks.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

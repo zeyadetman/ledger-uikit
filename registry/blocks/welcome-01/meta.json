@@ -1,0 +1,9 @@
+{
+  "slug": "welcome-01",
+  "title": "Welcome",
+  "category": "onboarding",
+  "use_when": "Use as the first screen after signup, before any meters exist.",
+  "avoid_when": "Avoid once the workspace has posted events — use the app shell.",
+  "deps": [],
+  "states": ["default"]
+}

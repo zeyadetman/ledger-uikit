@@ -1,0 +1,9 @@
+{
+  "slug": "toast-01",
+  "title": "Toast",
+  "category": "system",
+  "use_when": "Use for short, reversible confirmations after a desk write.",
+  "avoid_when": "Avoid for blocking failures — use confirm-dialog-01 or an error state.",
+  "deps": [],
+  "states": ["default"]
+}

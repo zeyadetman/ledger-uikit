@@ -1,0 +1,9 @@
+{
+  "slug": "footer-01",
+  "title": "Footer",
+  "category": "marketing",
+  "use_when": "Use at the bottom of marketing pages for sitemap, legal, and wordmark.",
+  "avoid_when": "Avoid inside the authenticated app — shell-01 already has chrome.",
+  "deps": [],
+  "states": ["default"]
+}

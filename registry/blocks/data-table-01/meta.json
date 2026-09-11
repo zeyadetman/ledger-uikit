@@ -1,0 +1,9 @@
+{
+  "slug": "data-table-01",
+  "title": "Data table",
+  "category": "data",
+  "use_when": "Use for dense operational tables: events, invoices, members.",
+  "avoid_when": "Avoid for marketing feature lists — use features-01.",
+  "deps": ["lucide-react"],
+  "states": ["default", "loading", "empty", "error"]
+}

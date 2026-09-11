@@ -1,0 +1,9 @@
+{
+  "slug": "signup-01",
+  "title": "Sign up",
+  "category": "auth",
+  "use_when": "Use to open a new workspace with email, passphrase, and firm name.",
+  "avoid_when": "Avoid as an invite accept screen.",
+  "deps": [],
+  "states": ["default", "error"]
+}

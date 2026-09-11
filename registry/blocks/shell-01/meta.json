@@ -1,0 +1,9 @@
+{
+  "slug": "shell-01",
+  "title": "App shell",
+  "category": "app",
+  "use_when": "Use as the authenticated layout: sidebar, top bar, and main canvas.",
+  "avoid_when": "Avoid on marketing pages — use navbar-01 + footer-01.",
+  "deps": ["lucide-react"],
+  "states": ["default"]
+}

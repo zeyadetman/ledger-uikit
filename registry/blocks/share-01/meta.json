@@ -1,0 +1,9 @@
+{
+  "slug": "share-01",
+  "title": "Share link",
+  "category": "communication",
+  "use_when": "Use to hand a record URL to finance with an explicit permission.",
+  "avoid_when": "Avoid world-readable links.",
+  "deps": [],
+  "states": ["default"]
+}

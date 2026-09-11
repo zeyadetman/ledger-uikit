@@ -1,0 +1,14 @@
+{
+  "slug": "retention-01",
+  "title": "Cohort retention",
+  "category": "data",
+  "use_when": "Use a cohort matrix showing the share of accounts returning each week",
+  "avoid_when": "Avoid for raw event volume; use chart-01.",
+  "deps": [],
+  "states": [
+    "default",
+    "loading",
+    "empty",
+    "error"
+  ]
+}

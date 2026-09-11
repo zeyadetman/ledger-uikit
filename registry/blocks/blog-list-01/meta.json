@@ -1,0 +1,9 @@
+{
+  "slug": "blog-list-01",
+  "title": "Blog list",
+  "category": "content",
+  "use_when": "Use for a public field-notes or changelog index in newspaper rows.",
+  "avoid_when": "Avoid as an in-app activity feed — use activity-01.",
+  "deps": [],
+  "states": ["default"]
+}

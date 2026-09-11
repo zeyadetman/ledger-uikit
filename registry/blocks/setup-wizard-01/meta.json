@@ -1,0 +1,9 @@
+{
+  "slug": "setup-wizard-01",
+  "title": "Setup wizard",
+  "category": "onboarding",
+  "use_when": "Use for the three-step first-run: workspace, meter, test event.",
+  "avoid_when": "Avoid for later settings edits — use settings-01.",
+  "deps": [],
+  "states": ["default"]
+}

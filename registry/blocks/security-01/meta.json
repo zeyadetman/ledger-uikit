@@ -1,0 +1,11 @@
+{
+  "slug": "security-01",
+  "title": "Security overview",
+  "category": "marketing",
+  "use_when": "Use a public overview of product security controls and shared responsibilities",
+  "avoid_when": "Avoid as a substitute for a legal agreement or compliance certification.",
+  "deps": [],
+  "states": [
+    "default"
+  ]
+}

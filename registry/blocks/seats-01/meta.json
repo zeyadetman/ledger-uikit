@@ -1,0 +1,9 @@
+{
+  "slug": "seats-01",
+  "title": "Manage seats",
+  "category": "billing",
+  "use_when": "Use on billing to show seat cap versus named operators.",
+  "avoid_when": "Avoid as the invite form — use team-invite-01.",
+  "deps": [],
+  "states": ["default"]
+}

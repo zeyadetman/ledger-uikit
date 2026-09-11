@@ -1,0 +1,9 @@
+{
+  "slug": "filters-01",
+  "title": "Filters",
+  "category": "data",
+  "use_when": "Use above a dense table for saved views and status chips.",
+  "avoid_when": "Avoid as the only navigation in the app.",
+  "deps": [],
+  "states": ["default"]
+}
